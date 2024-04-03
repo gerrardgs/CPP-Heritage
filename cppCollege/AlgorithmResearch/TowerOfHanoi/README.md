@@ -1,3 +1,8 @@
+### Program "TowerOfHanoi.cpp" Dapat Diakses Di Link Berikut Ini.
+https://bit.ly/TowerOfHanoiGerrard
+
+<br>
+
 # PENJELASAN PROGRAM TOWER OF HANOI (USING cpp LANGUAGE)
 
 - #include <iostream>: Menambahkan header iostream untuk operasi input/output seperti cout dan cin.
@@ -30,3 +35,57 @@
 - "Booster Platform": Nama tiang bantu yang digunakan untuk memindahkan gelang.
 - "cout << endl" mencetak karakter baris baru ke konsol. Ini digunakan untuk memberi jarak antar ronde dan membuat output lebih mudah dibaca.
 - "return 0" mengembalikan nilai 0 dan memberi tanda bahwa program telah selesai dijalankan dengan sukses
+
+<br>
+
+# DOKUMENTER OUTPUT PROGRAM:
+![Screenshot 2024-04-03 224355](https://github.com/gerrardgs/CPP-Heritage/assets/114888829/80be9b5e-d02d-457e-a43a-8a715c8c4ee2)
+
+<br>
+
+# CPP PROGRAM "TOWER OF HANOI"
+```cpp
+#include <iostream>
+#include <vector>  // Include header untuk penggunaan std::vector
+
+using namespace std;
+
+// Fungsi rekursif untuk memindahkan gelang
+void tower_of_hanoi(int n, string source, string target, string auxiliary) {
+  if (n == 1) {
+    cout << "Pindahkan gelang 1 dari " << source << " ke " << target << endl;
+    return;
+  }
+  tower_of_hanoi(n - 1, source, auxiliary, target);
+  cout << "Pindahkan gelang " << n << " dari " << source << " ke " << target << endl;
+  tower_of_hanoi(n - 1, auxiliary, target, source);
+}
+
+int main() {
+  int T; // Jumlah ronde
+  cout << "Masukkan jumlah ronde: ";
+  cin >> T;
+
+  // Menyimpan input jumlah gelang untuk setiap ronde
+  vector<int> n_arr(T);  // Deklarasi vektor setelah header <vector> di-include
+
+  // Meminta input jumlah gelang untuk setiap ronde
+  for (int ronde = 1; ronde <= T; ++ronde) {
+    cout << "Masukkan jumlah gelang di ronde " << ronde << ": ";
+    cin >> n_arr[ronde - 1];
+  }
+
+  // Menampilkan output untuk setiap ronde
+  for (int ronde = 1; ronde <= T; ++ronde) {
+    cout << "Ronde " << ronde << ":" << endl;
+    cout << "Langkah-langkah epik Anto dalam memindahkan gelang:" << endl;
+
+    tower_of_hanoi(n_arr[ronde - 1], "Base of Power", "Tower of Triumph", "Booster Platform");
+
+    cout << endl;
+  }
+
+  return 0;
+}
+
+```
