@@ -109,12 +109,12 @@ Output:
 - Setiap langkah pemindahan harus ditampilkan dalam format "Pindahkan gelang [nomor gelang] dari [asal] ke [tujuan]."
 
 Contoh:
-<br> Input Contoh:
+<br> Sample Input:
 <br> 2
 <br> 3
 <br> 2
 
-Output Contoh:
+Sample Contoh:
 <br> Ronde 1:
 <br> Langkah-langkah epik Anto dalam memindahkan gelang:
 <br> Pindahkan gelang 1 dari Base of Power ke Tower of Triumph
