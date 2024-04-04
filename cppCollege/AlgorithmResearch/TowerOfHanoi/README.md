@@ -114,7 +114,7 @@ Contoh:
 <br> 3
 <br> 2
 
-Sample Contoh:
+Sample Output:
 <br> Ronde 1:
 <br> Langkah-langkah epik Anto dalam memindahkan gelang:
 <br> Pindahkan gelang 1 dari Base of Power ke Tower of Triumph
