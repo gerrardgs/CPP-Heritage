@@ -92,48 +92,6 @@ int main() {
 
 <br>
 
-# SOAL (Tugas)
-Anto adalah seorang gamer handal yang sedang tergila-gila dengan sebuah game seru yang disebut "Tower of Hanoi: Quest for Victory". Dalam game ini, Anto harus menyelesaikan serangkaian tantangan yang melibatkan memindahkan gelang berukuran berbeda dari satu tiang ke tiang lainnya untuk mencapai kemenangan! Tiang pertama, yang disebut "Base of Power", penuh dengan gelang-gelang ajaib yang berkilauan. Tantangannya adalah untuk memindahkan semua gelang dari "Base of Power" ke "Tower of Triumph", tiang ketiga yang menandakan kemenangan! Namun, ada satu aturan penting yang harus diikuti oleh Anto:
-- Hanya satu gelang yang boleh dipindahkan pada satu waktu.
-- Gelang yang lebih besar tidak boleh diletakkan di atas gelang yang lebih kecil.
-- Untuk membantunya, Anto dapat menggunakan "Booster Platform", tiang kedua yang dapat digunakan sebagai tempat transit untuk memindahkan gelang.
-
-Sekarang, Anto membutuhkan bantuanmu! Bisakah kamu membantu Anto menyelesaikan "Tower of Hanoi: Quest for Victory" dengan memindahkan gelang-gelang ke "Tower of Triumph"?
-
-Input:
-- Input pertama adalah sebuah bilangan bulat T (1≤T≤5) yang merupakan jumlah ronde yang ingin dimainkan Anto.
-- Setiap ronde berisi sebuah bilangan bulat n (1≤n≤8), yang merupakan jumlah gelang awal di "Base of Power".
-
-
-Output:
-- Tampilkan langkah-langkah epik Anto dalam memindahkan gelang-gelang menuju kemenangan untuk setiap ronde.
-- Setiap langkah pemindahan harus ditampilkan dalam format "Pindahkan gelang [nomor gelang] dari [asal] ke [tujuan]".
-
-Contoh:
-<br> Sample Input
-<br> 2
-<br> 3
-<br> 2
-
-Sample Output
-<br> Ronde 1:
-<br> Langkah-langkah epik Anto dalam memindahkan gelang:
-<br> Pindahkan gelang 1 dari Base of Power ke Tower of Triumph
-<br> Pindahkan gelang 2 dari Base of Power ke Booster Platform
-<br> Pindahkan gelang 1 dari Tower of Triumph ke Booster Platform
-<br> Pindahkan gelang 3 dari Base of Power ke Tower of Triumph
-<br> Pindahkan gelang 1 dari Booster Platform ke Base of Power
-<br> Pindahkan gelang 2 dari Booster Platform ke Tower of Triumph
-<br> Pindahkan gelang 1 dari Base of Power ke Tower of Triumph
-<br>
-<br> Ronde 2:
-<br> Langkah-langkah epik Anto dalam memindahkan gelang:
-<br> Pindahkan gelang 1 dari Base of Power ke Booster Platform
-<br> Pindahkan gelang 2 dari Base of Power ke Tower of Triumph
-<br> Pindahkan gelang 1 dari Booster Platform ke Tower of Triumph
-
-<br>
-
 # Problem Statement
 Anto adalah seorang gamer handal yang sangat menyukai game seru bernama "Tower of Hanoi: Quest for Victory." Dalam game ini, Anto harus menyelesaikan serangkaian tantangan yang melibatkan memindahkan gelang-gelang dengan ukuran berbeda dari satu tiang ke tiang lainnya untuk mencapai kemenangan! Tiang pertama, yang disebut "Base of Power," berisi gelang-gelang ajaib yang berkilauan. Tantangannya adalah memindahkan semua gelang dari "Base of Power" ke "Tower of Triumph," yaitu tiang ketiga yang menandakan kemenangan! Namun, ada satu aturan penting yang harus diikuti oleh Anto:
 - Hanya satu gelang yang boleh dipindahkan pada satu waktu.
